@@ -51,7 +51,8 @@ async def get_project_info(project: Tag) -> ProjectInfo:
     description = project.select('p')
     description = description[0].text.strip() if description else ''
 
-    language = project.find('span', itemprop='programmingLanguage').text
+    language = project.find('span', itemprop='programmingLanguage')
+    language = language.text if language else 'No Language'
 
     url = link.get('href')
     return ProjectInfo(header, description, language, GITHUB_BASE_URL + url)

@@ -45,7 +45,7 @@ UPDATE_TIME_MINUTES = 60
 DATABASE_PATH = Path(os.path.abspath(__file__)).parent.parent / 'sql.db'
 DATABASE_DRIVER = f'sqlite:///{DATABASE_PATH}'
 
-PROJECTS_LIMIT = 10
+PROJECTS_LIMIT = 5
 
 GITHUB_URLS = [
     ('https://github.com/trending/python?since=daily', 'Python Daily'),

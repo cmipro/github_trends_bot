@@ -78,7 +78,7 @@ The main settings to check in config_data/config.py.
 
 ```
 UPDATE_TIME_MINUTES = 60 # Time to check for updates
-PROJECTS_LIMIT = 10 # The number of projects in the top, by default TOP10, maximum TOP25
+PROJECTS_LIMIT = 5 # The number of projects in the top, by default TOP5, maximum TOP25
 GITHUB_URLS # Links for tracking ratings
 ```
 
