@@ -1,6 +1,6 @@
 # GitHub Trends Bot
-Telegram bot for tracking GitHub trends. Tracks links to trends from the 
-configuration and publishes them to your channel.
+Telegram bot for tracking GitHub trends. Track your links from the 
+configuration and publish them to your channel.
 
 ## My Channel
 If you don't want to launch your bot, you can just follow the trends through 
