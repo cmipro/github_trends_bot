@@ -21,6 +21,7 @@ async def find_new_projects() -> None:
             if project_dao.check_project_exists(project_info.header):
                 continue
             await send_message_to_channel(project_info, url[1])
+            await asyncio.sleep(1)
             project_dao.add_project(project_info.header)
 
 
